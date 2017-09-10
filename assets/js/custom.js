@@ -52,12 +52,15 @@ jQuery(function($){
 		$(".navigation-top .menu-top-container").fadeIn(400);
 		$(".navigation-top .menu-sub-container").fadeIn(400);
 		$(".btn-nav-mb-close").fadeIn(400);
+		$(".btn-nav-mb").fadeOut(100);
 	});
 	$(".btn-nav-mb-close").click(function(){
 		$(".navigation-top .menu-top-container").fadeOut(400);
 		$(".navigation-top .menu-sub-container").fadeOut(400);
 		$(".btn-nav-mb-close").fadeOut(400);
+		$(".btn-nav-mb").fadeIn(400);
 	})
+	
 });
 
 

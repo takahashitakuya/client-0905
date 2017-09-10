@@ -33,7 +33,10 @@
 				<?php endif;?>				
 			</div><!-- .wrap -->
 			<div class="line"></div>
+			<a href="<?php home_url()?>">
 			<img class="logo-footer" src="/img/logo-footer.png" alt="">
+			</a>
+			<a href="https://www.tayamastudio1.com/" class="footer-copy" target="_blank">&copy; タヤマスタジオ</a>
 		</footer><!-- #colophon -->
 	</div><!-- .site-content-contain -->
 </div><!-- #page -->

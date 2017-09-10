@@ -27,7 +27,9 @@
 </head>
 
 <body <?php body_class(); ?>>
-
+<div class="btn-nav-mb">
+		<img src="<?php print get_template_directory_uri() . "/assets/images/nav-mb.png"; ?>" alt="" class="custom-btn-nav btn-nav-mb">
+</div>
 <?php $page = get_post($post->ID);?>
 
 <div id="page" class="site page-<?php echo $page->post_name; ?>">

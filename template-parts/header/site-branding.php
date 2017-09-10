@@ -9,6 +9,7 @@
  */
 
 ?>
+
 <div class="site-branding">
 	<div class="wrap">
 
@@ -28,11 +29,11 @@
 			?>
 				<p class="site-description"><?php echo $description; ?></p>
 			<?php endif; ?>
-			
-			<a href="javascript:void(0)"><img src="<?php print get_template_directory_uri() . "/assets/images/nav-mb.png"; ?>" alt="" class="btn-nav-mb"></a>
+		<!--<img src="<?php print get_template_directory_uri() . "/assets/images/nav-mb.png"; ?>" alt="" class="btn-nav-mb">-->
+
 			<a href="https://twitter.com/kanakeno2017" target="_blank" class="sns"><img src="<?php print get_template_directory_uri() . "/assets/images/tw.png"; ?>" alt=""></a>
 			<a href="https://www.facebook.com/kanakeno2017/" target="_blank" class="sns"><img src="<?php print get_template_directory_uri() . "/assets/images/fb.png"; ?>" alt=""></a>
-			<a href="https://www.instagram.com/kanakeno_official/" target="_blank" class="sns"><img src="<?php print get_template_directory_uri() . "/assets/images/insta.png"; ?>" alt=""></a>
+			<a href="https://www.instagram.com/kanakeno_official/" target="_blank" class="sns"><img src="<?php print get_template_directory_uri() . "/assets/images/insta2.png"; ?>" alt=""></a>
 		</div><!-- .site-branding-text -->
 
 		<?php if ( ( twentyseventeen_is_frontpage() || ( is_home() && is_front_page() ) ) && ! has_nav_menu( 'top' ) ) : ?>

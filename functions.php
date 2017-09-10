@@ -8,7 +8,14 @@
  * @subpackage Twenty_Seventeen
  * @since 1.0
  */
-
+function custom_editor_settings( $initArray ){
+	$initArray['body_id'] = 'primary';	
+	$initArray['body_class'] = 'post';	
+	$initArray['valid_children'] = '+body[style],+div[div|span],+span[span]';
+	$initArray['verify_html'] = false;
+	return $initArray;
+}
+add_filter( 'tiny_mce_before_init', 'custom_editor_settings' );
 /**
  * Twenty Seventeen only works in WordPress 4.7 or later.
  */
